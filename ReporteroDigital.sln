@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReporteroDigital", "ReporteroDigital\ReporteroDigital.csproj", "{5AE2F75F-4262-4303-BFA2-2C2CFAB7463F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd", "BackEnd\BackEnd.csproj", "{2619EF91-2ABF-465B-80AC-5C8EB0E1BEF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE2F75F-4262-4303-BFA2-2C2CFAB7463F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE2F75F-4262-4303-BFA2-2C2CFAB7463F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE2F75F-4262-4303-BFA2-2C2CFAB7463F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5AE2F75F-4262-4303-BFA2-2C2CFAB7463F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE2F75F-4262-4303-BFA2-2C2CFAB7463F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE2F75F-4262-4303-BFA2-2C2CFAB7463F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2619EF91-2ABF-465B-80AC-5C8EB0E1BEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2619EF91-2ABF-465B-80AC-5C8EB0E1BEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2619EF91-2ABF-465B-80AC-5C8EB0E1BEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2619EF91-2ABF-465B-80AC-5C8EB0E1BEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

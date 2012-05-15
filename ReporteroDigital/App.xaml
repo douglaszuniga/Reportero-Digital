@@ -1,0 +1,20 @@
+﻿<Application 
+    x:Class="ReporteroDigital.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:map="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <map:ApplicationIdCredentialsProvider ApplicationId="ApyKvl0-aTBXnrFSApLCoG_u0Jv0NJVBfu0MmxSDI_oXcT0nPI7weJYoixRR7O5P" x:Key="BingMapsAPIKey"></map:ApplicationIdCredentialsProvider>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService 
+            Launching="Application_Launching" Closing="Application_Closing" 
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>
